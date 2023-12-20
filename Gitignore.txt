@@ -1,16 +1,16 @@
 -Why?
-M?c ?�ch c?a vi?c s? d?ng t?p .gitignore l� ?? ??nh r� nh?ng t?p kh�ng mong mu?n ???c theo d�i b?i Git, gi�p l�m s?ch l?ch s? commit v� tr�nh vi?c theo d�i c�c t?p kh�ng c?n thi?t.
+Mục đích của việc sử dụng tệp .gitignore là để định rõ những tệp không mong muốn được theo dõi bởi Git, giúp làm sạch lịch sử commit và tránh việc theo dõi các tệp không cần thiết.
 What?
-C�c t?p ho?c m?u n�n ???c b? qua bao g?m c�c t?p nh? ph�n bi�n d?ch, t?p nh?t k�, t?p t?m th?i v� c�c t?p ???c t?o ra trong qu� tr�nh x�y d?ng.
+Các tệp hoặc mẫu nên được bỏ qua bao gồm các tệp nhị phân biên dịch, tệp nhật ký, tệp tạm thời và các tệp được tạo ra trong quá trình xây dựng.
 Where?
-T?p .gitignore n�n ???c ??t ? th? m?c g?c c?a d? �n Git ?? c� hi?u qu? t?i ?a.
+Tệp .gitignore nên được đặt ở thư mục gốc của dự án Git để có hiệu quả tối đa.
 When?
-S? d?ng t?p .gitignore m?i khi b?n mu?n lo?i b? nh?ng t?p ho?c th? m?c c? th? kh?i qu?n l� phi�n b?n.
+Sử dụng tệp .gitignore mỗi khi bạn muốn loại bỏ những tệp hoặc thư mục cụ thể khỏi quản lý phiên bản.
 Who?
-File .gitignore n�n ???c s? d?ng b?i m?i ng??i l�m vi?c v?i Git, ??c bi?t l� trong c�c d? �n ph�t tri?n ph?n m?m.
+File .gitignore nên được sử dụng bởi mọi người làm việc với Git, đặc biệt là trong các dự án phát triển phần mềm.
 How?
-?? t?o m?t t?p .gitignore c? b?n, b?n c?n th?c hi?n c�c b??c sau:
-T?o m?t t?p m?i c� t�n l� .gitignore trong th? m?c g?c c?a d? �n Git.
-Th�m c�c m?u cho c�c t?p ho?c th? m?c c?n b? b? qua trong t?p .gitignore.
+Để tạo một tệp .gitignore cơ bản, bạn cần thực hiện các bước sau:
+Tạo một tệp mới có tên là .gitignore trong thư mục gốc của dự án Git.
+Thêm các mẫu cho các tệp hoặc thư mục cần bị bỏ qua trong tệp .gitignore.
 
 
